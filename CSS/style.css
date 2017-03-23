@@ -1,14 +1,10 @@
 @charset "UTF-8";
 * {
+  transition: 0.5s;
   font-family: 微軟正黑體;
 }
 
-a {
-  transition: 0.5s;
-}
-
 nav.navbar {
-  transition: 0.5s;
   font-size: 18px;
   margin-right: -120px;
 }
@@ -19,7 +15,6 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
 }
 nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
   color: white;
-  transition: 0.5s;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -32,7 +27,7 @@ p {
 }
 
 header.jumbotron {
-  background-image: url('../img/10.png');
+  background-image: url(http://i.imgur.com/FgYdrL0.png);
   background-size: cover;
   background-attachment: fixed;
   height: 700px;
@@ -96,6 +91,7 @@ section#section_activities {
 }
 section#section_activities img {
   width: 100%;
+  margin-top: 30px;
 }
 section#section_activities h1 {
   text-align: left;
@@ -109,10 +105,61 @@ section#section_courses {
 section#section_courses h1 {
   text-align: left;
 }
+section#section_courses .img_wrap {
+  height: 200px;
+  width: 200px;
+  margin: 0px auto;
+  border-radius: 100%;
+  overflow: hidden;
+}
+section#section_courses img {
+  width: 120%;
+  height: 200px;
+}
+section#section_courses .img1 {
+  margin-left: -35px;
+}
+section#section_courses .img3 {
+  width: 100%;
+}
 
 section#section_internship {
   background-color: #171936;
   color: #EEF8FA;
+}
+section#section_internship hr {
+  width: 110%;
+}
+section#section_internship .title {
+  display: inline-block;
+}
+section#section_internship h3 {
+  margin-left: 10px;
+  color: rgba(255, 255, 255, 0.8);
+}
+section#section_internship .intern {
+  cursor: pointer;
+  border: solid 2.5px #D2D339;
+  padding: 16px;
+  text-align: center;
+  width: 55%;
+  margin: 15px auto;
+  color: #EEF8FA;
+}
+section#section_internship .discription {
+  border: solid 1px;
+  margin: 65px 0px auto auto;
+  background-size: cover;
+  background-image: url(https://scontent-tpe1-1.xx.fbcdn.net/v/t31.0-8/16992214_1403626656379320_6156250274119294727_o.jpg?oh=55f0d866cda3e51a19d7606119556f73&oe=5968F573);
+  width: 120%;
+  height: 450px;
+}
+section#section_internship .discription_text {
+  width: 120%;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 1px;
 }
 
 section#section_CTY12 img {
@@ -144,6 +191,18 @@ section#section_CTY12 .logo2 {
 
 section#section_team {
   background-color: #D2D339;
+  border: solid 2px;
+  text-align: center;
+}
+section#section_team .img_wrap {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+section#section_team img {
+  border: solid 2px;
+  width: 100%;
+  display: block;
 }
 
 section#QA {
@@ -152,7 +211,7 @@ section#QA {
 }
 
 footer.jumbotron {
-  background: url('../img/10.png');
+  background: url(http://i.imgur.com/FgYdrL0.png);
   background-size: cover;
   background-attachment: fixed;
   margin-bottom: 0px;
